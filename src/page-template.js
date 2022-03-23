@@ -1,5 +1,3 @@
-//const { template } = require("lodash");
-
 //create the about section
 const generateAbout = aboutText => {
     if (!aboutText) {
@@ -98,5 +96,3 @@ module.exports = templateData => {
     </html>
     `;
 };
-
-//module.exports = generatePage;
